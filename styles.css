@@ -10,18 +10,16 @@ body {
 }
 
 main {
-  text-align: center; 
+  text-align: center; /* Existing for text centering, but not essential for iframe */
   margin-bottom: 30px;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background overlay */
   color: white;
-}
 
-/* Option 1: Centering with Flexbox (Apply these styles to iframe's parent) */ 
-main { 
+  /* Flexbox for iframe centering */
   display: flex;
   justify-content: center; 
-} 
+}
 
 /* ------ HEADING STYLING ------ */
 
@@ -44,7 +42,6 @@ iframe {
   height: 500px; 
   border: 5px solid #f0f0f0; /* A thicker white border */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Subtle box shadow effect */
-  display: block; /* Important if using the text-align method */
 }
 
 /* ------ RESPONSIVE STYLING ------ */
