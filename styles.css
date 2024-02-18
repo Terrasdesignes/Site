@@ -17,6 +17,12 @@ main {
   color: white;
 }
 
+/* Option 1: Centering with Flexbox (Apply these styles to iframe's parent) */ 
+main { 
+  display: flex;
+  justify-content: center; 
+} 
+
 /* ------ HEADING STYLING ------ */
 
 h1 {
@@ -33,21 +39,19 @@ h2 {
 /* ------ IFRAME STYLING ------ */
 
 iframe {
-  width: 100%; 
+  width: 80%; 
   max-width: 900px; 
-  height: 500000px; 
+  height: 500px; 
   border: 5px solid #f0f0f0; /* A thicker white border */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Subtle box shadow effect */
-  display: block;  /* Treat the iframe as a block element */
-  margin-left: auto; 
-  margin-right: auto;  /* Set left and right margins to 'auto' */
+  display: block; /* Important if using the text-align method */
 }
 
 /* ------ RESPONSIVE STYLING ------ */
 
-@media (max-width: 768px) { /* Styles for tablet-sized screens and smaller */
+@media (max-width: 768px) { 
   h1 {
-    font-size: 2.5em; /* Reduce h1 size on smaller screens */
+    font-size: 2.5em; 
   }
 
   h2 {
@@ -55,12 +59,12 @@ iframe {
   }
 
   iframe {
-    width: 95%; /* Make iframe take up most of the width */
-    max-width: 100%; /* Don't let it become wider than the screen */
+    width: 95%; 
+    max-width: 100%; 
   }
 }
 
-@media (max-width: 480px) { /* Styles for mobile phone screens */
+@media (max-width: 480px) { 
   h1 {
     font-size: 2em;
   }
