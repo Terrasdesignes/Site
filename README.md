@@ -5,4 +5,5 @@ This project provides a basic HTML and CSS wrapper for a shared google drive lin
 Please use this to share your digital creations. 
   To do this please clone the repository and follow the instructions here: https://pages.github.com/
   
-  Or host it yourself I don't give a fuck it's one HTML and CSS file for fucks sake.  https://letmegooglethat.com/?q=how+to+apache
+  Or host it yourself I don't give a fuck it's one HTML and CSS file for fucks sake.  https://letmegooglethat.com/?q=how+to+apache  https://www.w3schools.com/css/default.asp  https://www.w3schools.com/html/default.asp
+
