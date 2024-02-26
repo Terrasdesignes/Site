@@ -1,4 +1,4 @@
-Front end code for the Rabbit Gang public media dump. 
+Front end code for the Rabbit Gang public media dump. rabbitgang.ca
 
 This project provides a basic HTML and CSS wrapper for a shared google drive link.
 
